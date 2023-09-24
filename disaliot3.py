@@ -8,6 +8,6 @@ for i in range(18,26):
 while True:
     for x in range(18,26): 
         gpio.output(x,True)
-        time.sleep(0.05)
+        time.sleep(0.025)
         gpio.output(x,False)
-        time.sleep(0.05)
+        time.sleep(0.025)
